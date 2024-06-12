@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAccelerometerApp.MainPage">
+
+    <StackLayout Padding="10">
+        <Label x:Name="XLabel" Text="X: " FontSize="Large" />
+        <Label x:Name="YLabel" Text="Y: " FontSize="Large" />
+        <Label x:Name="ZLabel" Text="Z: " FontSize="Large" />
+        <Label x:Name="SpeedLabel" Text="You are moving at: " FontSize="Large" />
+    </StackLayout>
+
+</ContentPage>
